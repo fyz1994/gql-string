@@ -1,0 +1,15 @@
+{
+  "name": "gql-string",
+  "version": "1.0.0",
+  "description": "根据查询参数对象拼接graphql查询字符串",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "igroot"
+  ],
+  "author": "yizhen.fan",
+  "license": "ISC"
+}
