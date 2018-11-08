@@ -11,5 +11,13 @@
     "igroot"
   ],
   "author": "yizhen.fan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyz1994/gql-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fyz1994/gql-string/issues"
+  },
+  "homepage": "https://github.com/fyz1994/gql-string#readme"
 }
