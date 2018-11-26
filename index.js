@@ -74,7 +74,7 @@ const microParse = (data) => {
 // end
 
 // 真正控制转化流程的函数
-const parse = (data, seperator) => {
+const parse = (data, seperator = ",") => {
   if (!isObject(data))
     return new Error('解析目标必须是一个对象！')
 
@@ -84,6 +84,7 @@ const parse = (data, seperator) => {
     }
     return null
   })
+
   return strs.filter(item => !!item).join(seperator)
 }
 
