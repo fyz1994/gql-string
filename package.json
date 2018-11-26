@@ -1,6 +1,6 @@
 {
   "name": "gql-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "根据查询参数对象拼接graphql查询字符串",
   "main": "index.js",
   "scripts": {

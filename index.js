@@ -1,22 +1,12 @@
 // 判断数据类型部分的代码
-
-/**
- * 判断一个数据是否是对象（不是数组）
- * @param {*} data 数据
- */
-const isObject = (data) => {
-  return (typeof data === 'object') && !isArray(data)
-}
-
-const isArray = (data) => {
-  return Array.isArray(data)
-}
-
 const judgeType = (typeName) => {
   return (data) => {
-    return typeof data === typeName
+    return Object.prototype.toString.call(data).slice(8, -1).toLocaleLowerCase() === typeName
   }
 }
+const isObject = judgeType('object')
+
+const isArray = judgeType('array')
 
 const isString = judgeType('string')
 
